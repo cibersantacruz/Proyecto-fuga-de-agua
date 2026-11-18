@@ -85,7 +85,7 @@ public class PanelLecturas extends PanelBase {
         txtHora = new JTextField();
         txtValor = new JTextField();
 
-        JPanel campos = new JPanel(new GridLayout(2, 3, 8, 8));
+        JPanel campos = new JPanel(new GridLayout(3, 2, 8, 8));
         campos.add(new JLabel("Fecha (AAAA-MM-DD):"));
         campos.add(txtFecha);
         campos.add(new JLabel("Hora (HH:MM):"));
